@@ -12,6 +12,7 @@ public class NamesController {
     @RequestMapping
     public List<String> getNames(){
         List<String> names = new ArrayList<>();
+        names.add("Andrei");
         return names;
     }
 
