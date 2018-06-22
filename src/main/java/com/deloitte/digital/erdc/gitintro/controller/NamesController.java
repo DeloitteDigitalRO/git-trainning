@@ -13,6 +13,7 @@ public class NamesController {
     public List<String> getNames(){
         List<String> names = new ArrayList<>();
         names.add("Default");
+        names.add("Carlo");
         return names;
     }
 
